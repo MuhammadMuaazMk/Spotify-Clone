@@ -81,9 +81,9 @@ async function displayAlbums() {
     let anchors = div.getElementsByTagName("a")
     let cardContainer = document.querySelector(".cardContainer")
     let array = Array.from(anchors)
-    // for (let index = 0; index < array.length; index++) {
-    //     const e = array[index]; 
-    //     if (e.href.includes("/songs") && !e.href.includes(".htaccess")) {
+    for (let index = 0; index < array.length; index) {
+        const e = array[index]; 
+        if (e.href.includes("/songs") && !e.href.includes(".htaccess")) {
     //         let folder = e.href.split("/").slice(-2)[0]
     //         // Get the metadata of the folder
     //         let a = await fetch(`/songs/Angry_(mood)/info.json`)
@@ -276,6 +276,8 @@ async function displayAlbums() {
             <h2>${response10.title}</h2>
             <p>${response10.description}</p>
         </div>`
+        }
+    }
   
 
     // Load the playlist whenever card is clicked
