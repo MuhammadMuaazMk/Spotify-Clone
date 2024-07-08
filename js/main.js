@@ -113,7 +113,7 @@ async function displayAlbums() {
                 </svg>
             </div>
 
-            <img src="/songs/Bright_(mood)/cover.jpg" alt="">
+            <img src="/songs/Bright_(mood)/cover.jpeg" alt="">
             <h2>${response2.title}</h2>
             <p>${response2.description}</p>
         </div>`
@@ -129,7 +129,7 @@ async function displayAlbums() {
             </svg>
         </div>
 
-        <img src="/songs/Chill_(mood)/cover.jpg" alt="">
+        <img src="/songs/Chill_(mood)/cover.jpeg" alt="">
         <h2>${response3.title}</h2>
         <p>${response3.description}</p>
     </div>`
@@ -162,7 +162,7 @@ async function displayAlbums() {
                 </svg>
             </div>
 
-            <img src="/songs/Dark_(mood)/cover.jpg" alt="">
+            <img src="/songs/Dark_(mood)/cover.jpeg" alt="">
             <h2>${response5.title}</h2>
             <p>${response5.description}</p>
         </div>`
@@ -194,7 +194,7 @@ async function displayAlbums() {
                 </svg>
             </div>
 
-            <img src="/songs/Funky_(mood)/cover.jpg" alt="">
+            <img src="/songs/Funky_(mood)/cover.jpeg" alt="">
             <h2>${response7.title}</h2>
             <p>${response7.description}</p>
         </div>`
@@ -257,7 +257,7 @@ async function displayAlbums() {
         </svg>
     </div>
 
-    <img src="/songs/Uplifting_(mood)/cover.jpg" alt="">
+    <img src="/songs/Uplifting_(mood)/cover.jpeg" alt="">
     <h2>${response11.title}</h2>
     <p>${response11.description}</p>
     </div>`
